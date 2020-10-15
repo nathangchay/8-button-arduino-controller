@@ -1,4 +1,4 @@
 # 8 Button Arduino Controller
 
 Schematic:
-![](./controller_schem.png)
+![](./images/controller_schem.png)
