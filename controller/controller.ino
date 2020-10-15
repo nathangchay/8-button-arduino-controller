@@ -1,3 +1,10 @@
+/*
+ Nathan Chay
+ 200403221
+ CS 207
+ Oct. 14, 2020 
+*/
+
 //  pins for buttons
 const int BUTTON_PINS[8] = {13, 12, 11, 10, 9, 8, 7, 6};
 const String BUTTON_NAMES[8] = {"Left", "Up", "Down", "Right", "Y", "X", "B", "A"};
@@ -28,6 +35,7 @@ void loop()
     //  getting current state of button
     button_current_state = digitalRead(BUTTON_PINS[i]);
 
+    //  assume pull-up button configuration
     //  if the state goes from low to high, the button has been released
     if (button_last_state[i] == LOW && button_current_state == HIGH)
     {
