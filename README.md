@@ -1,3 +1,3 @@
 # 8 Button Arduino Controller
 
-![](./controller_schem.png)
+![Schematic:](./controller_schem.png)
