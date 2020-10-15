@@ -6,8 +6,8 @@
 */
 
 //  pins for buttons
-const int BUTTON_PINS[8] = {4, 3, 5, 6, 13, 12, 11, 10};
-const String BUTTON_NAMES[8] = {"Left", "Up", "Down", "Right", "Y", "X", "B", "A"};
+const int BUTTON_PINS[8] = {2, 3, 4, 5, 6, 7, 8, 9};
+const String BUTTON_NAMES[8] = {"Left", "Up", "Down", "Right", "Select", "Start", "B", "A"};
 
 //  last states of the buttons
 int button_last_state[8] = {0, 0, 0, 0, 0, 0, 0, 0};
