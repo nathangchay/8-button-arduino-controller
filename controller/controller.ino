@@ -6,7 +6,7 @@
 */
 
 //  pins for buttons
-const int BUTTON_PINS[8] = {13, 12, 11, 10, 9, 8, 7, 6};
+const int BUTTON_PINS[8] = {4, 3, 5, 6, 13, 12, 11, 10};
 const String BUTTON_NAMES[8] = {"Left", "Up", "Down", "Right", "Y", "X", "B", "A"};
 
 //  last states of the buttons
