@@ -1,5 +1,5 @@
 # 8 Button Arduino Controller
-For CS 207 - Building Interactive Gadgets, at the University of Regina.
+Project for CS 207 - Building Interactive Gadgets.
 
 Schematic:
 
